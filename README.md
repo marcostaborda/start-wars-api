@@ -1,6 +1,6 @@
 # Star Wars API
 
-![Alt text](src/assets/image1.jpg)
+![ImageProject](https://raw.githubusercontent.com/marcostaborda/start-wars-api/main/src/assets/image1.png)
 
 Projeto consome a api [https://swapi.dev/api/](https://swapi.dev/api/).
 A uma chamada de um método get para buscar 10 personagens do Star Wars.
