@@ -23,7 +23,13 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["import","react", "react-hooks", "@typescript-eslint", "prettier"],
+  "plugins": [
+    "import",
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier"
+  ],
   "rules": {
     "no-use-before-define": [0],
     "@typescript-eslint/no-use-before-define": [1],
@@ -63,7 +69,8 @@
         "tsx": "never"
       }
     ],
-    "import/no-unresolved": "error"
+    "import/no-unresolved": "error",
+    "camelcase": "off"
   },
   "settings": {
     "import/parsers": {
